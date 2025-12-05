@@ -16,3 +16,9 @@ jobs:
 
       - name: 'Check files'
         run: ls
+
+      - name: 'Build Image'
+        run: docker build -t ${{ secrets.DOCKER_USER_NAME }}/yahia-ahmed-2023040281 .
+
+      - name: 'Push the Image'
+        run: docker push ${{ secrets.DOCKER_USER_NAME }}/yahia-ahmed-2023040281
