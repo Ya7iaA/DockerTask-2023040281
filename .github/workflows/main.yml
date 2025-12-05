@@ -1,5 +1,3 @@
-name: Yahia Ahmed 2023040281
-
 on:
   push:
     branches:
@@ -12,6 +10,6 @@ jobs:
     steps:
 
       - uses: actions/checkout@v3
-
+      
       - name: 'Check files'
         run: ls
