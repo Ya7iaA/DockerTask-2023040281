@@ -17,8 +17,6 @@ def divide(a, b):
 
 
 def calculator():
-    print("Simple Python Calculator")
-    print("Operations: +, -, *, /")
     while True:
         try:
             a = float(input("Enter first number: "))
